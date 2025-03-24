@@ -1,0 +1,58 @@
+.navigation-item {
+	display: inline-block;
+	position: relative;
+	width: max-content;
+	transition: all 0.15s ease-out;
+}
+
+.navigation-item:hover a {
+	color: var(--text-highlight);
+}
+
+.navigation-item:hover {
+	transform: translateX(1rem);
+}
+
+.navigation-item.active {
+	transform: translateX(1rem);
+}
+
+.navigation-item.active a {
+	color: var(--text-highlight);
+}
+
+.navigation-item.active.left::after {
+	transform: scaleX(1);
+}
+
+.navigation-item::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 1px;
+	bottom: 0;
+	left: 0;
+	background-color: var(--text-highlight);
+	transition: transform 0.1s ease-out;
+}
+
+.navigation-item:hover::after {
+	transform: scaleX(1);
+}
+
+.navigation-item.left::after {
+	transform-origin: bottom left;
+}
+
+.navigation-item.left:hover::after {
+	transform-origin: bottom left;
+}
+
+.navigation-item.inactive a {
+	color: var(--inactive-text);
+}
+
+.navigation-item.inactive:hover a {
+	color: var(--text-highlight);
+}

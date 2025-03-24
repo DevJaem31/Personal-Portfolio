@@ -1,0 +1,7 @@
+.personal-name {
+	font-family: var(--header-font);
+}
+
+.location-text {
+	color: var(--inactive-text);
+}

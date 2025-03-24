@@ -1,6 +1,7 @@
 .main-page-container {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	padding: 0 5rem;
+	padding: 7rem 5rem 2.5rem;
+	height: 100vh;
 	gap: 2rem;
 }

@@ -1,0 +1,24 @@
+.icon-img {
+	transition: all 0.1s ease-out;
+}
+
+.icon-img:hover {
+	transform: translateY(-0.3rem);
+	filter: none;
+}
+
+.download-resume-text,
+.icon-arrow {
+	color: var(--inactive-text);
+	transition: all 0.1s ease-out;
+}
+
+.resume-download-container:hover .download-resume-text {
+	transform: translateX(0.2rem);
+	color: var(--text-highlight);
+}
+
+.resume-download-container:hover .icon-arrow {
+	transform: translateY(-0.2rem) translateX(0.2rem);
+	filter: none;
+}
