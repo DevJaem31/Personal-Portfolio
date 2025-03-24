@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+:root {
+	--bg-color: #0f172a;
+	--text-color: #d3d3d3;
+	--text-highlight: #70fff1dc;
+	--highlight-color: rgba(0, 80, 80, 0.5);
+
+	--header-font: Lato;
+	--text-font: Oswald;
+}
+
+body {
+	background: var(--bg-color);
+	color: var(--text-color);
+	font-family: var(--text-font);
+	height: 100%;
+	overflow-y: auto;
+}
+
+a {
+	text-decoration: none;
+	color: var(--text-color);
+}
+
+/* Works in Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+	width: 6px;
+	z-index: 0;
+}
+
+::-webkit-scrollbar-track {
+	background: #f0e6ff;
+	border-radius: 10px;
+	height: 150%;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #8a2be2;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #6a1bbd; /* Darker violet on hover */
+}
