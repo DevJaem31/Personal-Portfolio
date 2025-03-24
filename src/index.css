@@ -30,18 +30,18 @@ a {
 }
 
 ::-webkit-scrollbar-track {
-	background: #f0e6ff;
+	background: #00505080;
 	border-radius: 10px;
 	height: 150%;
 }
 
 ::-webkit-scrollbar-thumb {
-	background: #8a2be2;
+	background: #47a198;
 	border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background: #6a1bbd; /* Darker violet on hover */
+	background: #47a198;
 }
 
 @import 'tailwindcss';

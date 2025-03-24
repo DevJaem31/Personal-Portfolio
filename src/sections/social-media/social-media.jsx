@@ -9,7 +9,7 @@ import JaemResume from '../../assets/Resume/Flameño_John_Mark_Resume.pdf';
 function SocialMediaSections() {
 	return (
 		<div className='social-section-container flex flex-col gap-5'>
-			<div className='resume-download-container flex flex-row items-center gap-2'>
+			<div className='resume-download-container cursor-pointer flex flex-row items-center gap-2'>
 				<a
 					href={JaemResume}
 					download='Flameño_John_Mark_Resume.pdf'

@@ -1,0 +1,32 @@
+.about-header {
+	font-family: var(--header-font);
+}
+
+.about-paragraph {
+	color: var(--inactive-text);
+}
+
+.main-page-container {
+	scroll-snap-type: y mandatory;
+	scroll-behavior: smooth;
+}
+
+.sections-right {
+	scroll-snap-align: top;
+	scroll-snap-stop: 0px;
+}
+
+.arrow-left,
+.learn-more-link {
+	transition: all 0.1s ease-in-out;
+}
+
+.learn-more-container:hover .arrow-left {
+	transform: translateX(0.3rem);
+	filter: none;
+}
+
+.learn-more-container:hover .learn-more-link {
+	transform: translateX(0.4rem);
+	color: var(--text-highlight);
+}
