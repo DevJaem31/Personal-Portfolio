@@ -1,0 +1,18 @@
+.skills-name {
+	color: var(--inactive-text);
+	transition: all 0.15s ease-out;
+}
+
+.skills-icon {
+	transition: all 0.15s ease-out;
+}
+
+.skills-item:hover .skills-name {
+	opacity: 0.9;
+	color: var(--text-highlight);
+}
+
+.skills-item:hover .skills-icon {
+	filter: none;
+	opacity: 0.9;
+}

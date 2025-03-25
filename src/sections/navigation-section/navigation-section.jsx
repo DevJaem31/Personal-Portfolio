@@ -45,18 +45,18 @@ function NavigationSection() {
 					<a href='#about'>ABOUT</a>
 				</li>
 				<li
-					className={`navigation-item left text-lg ${active === 'SKILLS' ? 'active' : 'inactive'}`}
-					onClick={() => handleActive('SKILLS')}
-				>
-					<a href='#skills'>SKILLS</a>
-				</li>
-				<li
 					className={`navigation-item left text-lg ${
 						active === 'EXPERIENCE' ? 'active' : 'inactive'
 					}`}
 					onClick={() => handleActive('EXPERIENCE')}
 				>
 					<a href='#experience'>EXPERIENCE</a>
+				</li>
+				<li
+					className={`navigation-item left text-lg ${active === 'SKILLS' ? 'active' : 'inactive'}`}
+					onClick={() => handleActive('SKILLS')}
+				>
+					<a href='#skills'>SKILLS</a>
 				</li>
 				<li
 					className={`navigation-item left text-lg ${
