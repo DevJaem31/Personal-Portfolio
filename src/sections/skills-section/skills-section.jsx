@@ -1,13 +1,29 @@
 import React from 'react';
 import './skills-section.css';
-import ReactIcon from '../../assets/icons/react.png';
-import HTMLIcon from '../../assets/icons/html.png';
-import CSSIcon from '../../assets/icons/css.png';
-import TailwindIcon from '../../assets/icons/tailwind.png';
-import JavaScriptIcon from '../../assets/icons/javascript.png';
-import NodeIcon from '../../assets/icons/node.png';
-import ExpressIcon from '../../assets/icons/express.png';
-import MongoDBIcon from '../../assets/icons/mongodb.png';
+import {
+	ReactIcon,
+	HTMLIcon,
+	CSSIcon,
+	TailwindIcon,
+	JavaScriptIcon,
+	NodeIcon,
+	ExpressIcon,
+	MongoDBIcon,
+	AngularIcon,
+	CplusplusIcon,
+	CiscoIcon,
+	DjangoIcon,
+	JavaIcon,
+	PythonIcon,
+	SalesforceIcon,
+	TypescriptIcon,
+	AndroidIcon,
+	EclipseIcon,
+	GithubIcon,
+	MavenIcon,
+	PostmanIcon,
+	VSCodeIcon,
+} from '../../assets/icons/icons';
 
 function SkillsSection() {
 	return (
@@ -17,13 +33,14 @@ function SkillsSection() {
 					Skills and Technologies
 				</h1>
 			</div>
+
 			<div className='primary-skills-container'>
 				<div className='primary-skills-header-container mb-10'>
 					<h2 className='text-center font-semibold text-xl tracking-widest'>
 						PRIMARY SKILLS AND TECHNOLOGIES
 					</h2>
 				</div>
-				<div className='skills-container grid grid-cols-4 items-center gap-5 grid-rows-subgrid justify-center grid-rows-auto gap-2 h-fit'>
+				<div className='skills-container grid grid-cols-4 gap-y-10 items-center gap-5 grid-rows-subgrid justify-center grid-rows-auto gap-2 h-fit'>
 					<div className='skills-item flex flex-col items-center gap-2'>
 						<img
 							src={ReactIcon}
@@ -98,47 +115,47 @@ function SkillsSection() {
 					</h2>
 				</div>
 
-				<div className='skills-container grid grid-cols-4 items-center gap-5 grid-rows-subgrid justify-center grid-rows-auto gap-2 h-fit'>
-					<div className='skills-item flex flex-col items-center gap-2'>
+				<div className='skills-container grid grid-cols-4 gap-y-10 items-center gap-5 grid-rows-subgrid justify-center grid-rows-auto gap-2 h-fit'>
+					<div className='skills-item flex flex-col items-center mt-3 gap-2'>
 						<img
-							src={ReactIcon}
-							alt='React'
-							className='skills-icon ratio-square h-[64px] m-0 grayscale opacity-50'
+							src={PythonIcon}
+							alt='Python'
+							className='skills-icon ratio-square h-[50px] grayscale opacity-50'
 						/>
 						<p className='skills-name ml-2'>Python</p>
 					</div>
 
 					<div className='skills-item flex flex-col items-center gap-2'>
 						<img
-							src={ReactIcon}
-							alt='React'
+							src={JavaIcon}
+							alt='Java'
 							className='skills-icon ratio-square h-[64px] m-0 grayscale opacity-50'
 						/>
 						<p className='skills-name ml-1'>Java</p>
 					</div>
 
-					<div className='skills-item flex flex-col items-center gap-2'>
+					<div className='skills-item flex flex-col items-center mt-3.5 gap-2'>
 						<img
-							src={ReactIcon}
-							alt='React'
-							className='skills-icon ratio-square h-[64px] m-0 grayscale opacity-50'
+							src={CplusplusIcon}
+							alt='C++'
+							className='skills-icon ratio-square h-[50px] mb-0.5 grayscale opacity-50'
 						/>
 						<p className='skills-name ml-2'>C++</p>
 					</div>
 
-					<div className='skills-item flex flex-col items-center gap-2'>
+					<div className='skills-item flex flex-col items-center mt-3.5 gap-2'>
 						<img
-							src={ReactIcon}
-							alt='React'
-							className='skills-icon ratio-square h-[64px] m-0 grayscale opacity-50'
+							src={TypescriptIcon}
+							alt='Typescript'
+							className='skills-icon ratio-square h-[50px] m-0 grayscale opacity-50'
 						/>
 						<p className='skills-name ml-2'>Typescript</p>
 					</div>
 
 					<div className='skills-item flex flex-col items-center gap-2'>
 						<img
-							src={ReactIcon}
-							alt='React'
+							src={AngularIcon}
+							alt='Angular'
 							className='skills-icon ratio-square h-[64px] m-0 grayscale opacity-50'
 						/>
 						<p className='skills-name ml-2'>Angular</p>
@@ -146,8 +163,8 @@ function SkillsSection() {
 
 					<div className='skills-item flex flex-col items-center gap-2'>
 						<img
-							src={ReactIcon}
-							alt='React'
+							src={DjangoIcon}
+							alt='Django'
 							className='skills-icon ratio-square h-[64px] m-0 grayscale opacity-50'
 						/>
 						<p className='skills-name ml-2'>Django</p>
@@ -155,20 +172,84 @@ function SkillsSection() {
 
 					<div className='skills-item flex flex-col items-center gap-2'>
 						<img
-							src={ReactIcon}
-							alt='React'
+							src={CiscoIcon}
+							alt='Cisco'
 							className='skills-icon ratio-square h-[64px] m-0 grayscale opacity-50'
 						/>
-						<p className='skills-name ml-2'>Cisco</p>
+						<p className='skills-name'>Cisco</p>
 					</div>
 
 					<div className='skills-item flex flex-col items-center gap-2'>
 						<img
-							src={ReactIcon}
-							alt='React'
+							src={SalesforceIcon}
+							alt='Salesforce'
 							className='skills-icon ratio-square h-[64px] m-0 grayscale opacity-50'
 						/>
 						<p className='skills-name ml-2'>Salesforce</p>
+					</div>
+				</div>
+			</div>
+
+			<div className='tools-used-container mt-20'>
+				<div className='additional-skills-header mb-10'>
+					<h2 className='text-center font-semibold text-xl ml-5 tracking-widest'>
+						TOOLS BEING UTILIZED
+					</h2>
+				</div>
+
+				<div className='skills-container grid grid-cols-3 gap-y-10 items-center gap-5 grid-rows-subgrid justify-center grid-rows-auto gap-2 h-fit'>
+					<div className='skills-item flex flex-col items-center gap-2'>
+						<img
+							src={VSCodeIcon}
+							alt='Visual Studio Code'
+							className='skills-icon ratio-square h-[50px] m-0 grayscale opacity-50'
+						/>
+						<p className='skills-name ml-2'>Visual Studio Code</p>
+					</div>
+
+					<div className='skills-item flex flex-col items-center gap-2'>
+						<img
+							src={AndroidIcon}
+							alt='Android Studio'
+							className='skills-icon ratio-square h-[50px] m-0 grayscale opacity-50'
+						/>
+						<p className='skills-name ml-2'>Android Studio</p>
+					</div>
+
+					<div className='skills-item flex flex-col items-center gap-2'>
+						<img
+							src={EclipseIcon}
+							alt='Eclipse IDE'
+							className='skills-icon ratio-square h-[50px] m-0 grayscale opacity-50'
+						/>
+						<p className='skills-name'>Eclipse IDE</p>
+					</div>
+
+					<div className='skills-item flex flex-col items-center gap-2'>
+						<img
+							src={PostmanIcon}
+							alt='Postman'
+							className='skills-icon ratio-square h-[50px] m-0 grayscale opacity-50'
+						/>
+						<p className='skills-name'>Postman</p>
+					</div>
+
+					<div className='skills-item flex flex-col items-center gap-2'>
+						<img
+							src={GithubIcon}
+							alt='Github'
+							className='skills-icon ratio-square h-[50px] m-0 grayscale opacity-50'
+						/>
+						<p className='skills-name'>Github</p>
+					</div>
+
+					<div className='skills-item flex flex-col items-center gap-2'>
+						<img
+							src={MavenIcon}
+							alt='Maven'
+							className='skills-icon ratio-square h-[50px] m-0 grayscale opacity-50'
+						/>
+						<p className='skills-name'>Maven</p>
 					</div>
 				</div>
 			</div>

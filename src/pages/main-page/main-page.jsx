@@ -21,7 +21,7 @@ function MainPage() {
 					<SocialMediaSections />
 				</div>
 			</div>
-			<div className='right-side-container mb-20 w-[70%] h-fit'>
+			<div className='right-side-container w-[70%] h-fit'>
 				<section
 					className='about-section sections-right pt-20'
 					id='about'
@@ -35,7 +35,7 @@ function MainPage() {
 					Experience
 				</section>
 				<section
-					className='h-[100vh] pt-20 sections-right'
+					className='h-fit pt-20 sections-right'
 					id='skills'
 				>
 					<SkillsSection />
