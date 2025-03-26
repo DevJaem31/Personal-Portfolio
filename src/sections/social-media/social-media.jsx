@@ -3,6 +3,7 @@ import './social-media.css';
 import facebook from '../../assets/icons/facebook.png';
 import linkedIn from '../../assets/icons/linkedin.png';
 import github from '../../assets/icons/github.png';
+import salesforce from '../../assets/icons/social-salesforce.png';
 import rightUp from '../../assets/icons/right-up.png';
 import JaemResume from '../../assets/Resume/Flameño_John_Mark_Resume.pdf';
 
@@ -46,6 +47,18 @@ function SocialMediaSections() {
 					<img
 						src={github}
 						alt='github icon'
+						className='aspect-square h-[32px] opacity-[0.8] grayscale icon-img'
+					/>
+				</a>
+
+				<a
+					href='https://www.salesforce.com/trailblazer/johnmarkflameno'
+					target='_blank'
+					rel='noopener noreferrer'
+				>
+					<img
+						src={salesforce}
+						alt='Salesforce icon'
 						className='aspect-square h-[32px] opacity-[0.8] grayscale icon-img'
 					/>
 				</a>

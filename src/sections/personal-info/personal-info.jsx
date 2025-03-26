@@ -10,7 +10,7 @@ function PersonalSection() {
 					<img
 						src={pin}
 						alt='location pin'
-						className='ratio-square h-[20px] opacity-50'
+						className='ratio-square h-[20px] opacity-50 location-pin'
 					/>
 					<p className='location-text ml-1 font-semibold'>Bulacan, Philippines</p>
 				</div>

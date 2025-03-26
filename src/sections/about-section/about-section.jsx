@@ -16,7 +16,7 @@ function AboutSection() {
 					skills, and work with a team to develop useful applications.
 				</p>
 			</div>
-			<div className='learn-more-container flex flex-row items-center mb-15 gap-3 cursor-pointer'>
+			<div className='learn-more-container flex flex-row items-center gap-3 cursor-pointer'>
 				<a
 					href=''
 					className='learn-more-link tracking-wide'

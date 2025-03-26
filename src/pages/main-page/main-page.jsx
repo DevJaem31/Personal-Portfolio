@@ -6,6 +6,7 @@ import SocialMediaSections from '../../sections/social-media/social-media';
 
 import AboutSection from '../../sections/about-section/about-section';
 import SkillsSection from '../../sections/skills-section/skills-section';
+import ExperienceSection from '../../sections/experience-section/experience-section';
 
 function MainPage() {
 	return (
@@ -21,6 +22,7 @@ function MainPage() {
 					<SocialMediaSections />
 				</div>
 			</div>
+
 			<div className='right-side-container w-[70%] h-fit'>
 				<section
 					className='about-section sections-right pt-20'
@@ -29,10 +31,10 @@ function MainPage() {
 					<AboutSection />
 				</section>
 				<section
-					className='h-[100vh] pt-20 sections-right'
+					className='h-fit pt-20 sections-right'
 					id='experience'
 				>
-					Experience
+					<ExperienceSection />
 				</section>
 				<section
 					className='h-fit pt-20 sections-right'

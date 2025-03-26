@@ -22,3 +22,29 @@
 	transform: translateY(-0.2rem) translateX(0.2rem);
 	filter: none;
 }
+
+@media (max-width: 1028px) {
+	.resume-download-container {
+		gap: 0.1rem;
+	}
+
+	.download-resume-text {
+		font-size: calc(20px / 1.6);
+	}
+
+	.icon-arrow {
+		height: calc(20px / 1.6);
+	}
+
+	.social-section-container {
+		gap: 0.5rem;
+	}
+
+	.social-medias {
+		gap: 0.5rem;
+	}
+
+	.icon-img {
+		height: calc(32px / 1.6);
+	}
+}

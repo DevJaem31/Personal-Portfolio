@@ -1,0 +1,30 @@
+.experience-item-container {
+	border-radius: 10px;
+	transition: all 0.15s ease-out;
+	border: 1px solid transparent;
+	padding: 1rem 0.5rem;
+}
+
+.experience-item-container:hover {
+	background: rgba(147, 224, 255, 0.1);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border-radius: 10px;
+	border: 1px solid rgba(153, 189, 255, 0.3);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	outline: none;
+	opacity: 1;
+}
+
+.experience-item-container:hover .title-text-experience {
+	color: var(--text-highlight);
+}
+
+.experience-item-container:hover .exp-arrow {
+	filter: none;
+	transform: translate(2px, -2px);
+}
+
+.text-violet {
+	color: violet;
+}

@@ -5,3 +5,51 @@
 .location-text {
 	color: var(--inactive-text);
 }
+
+@media (max-width: 1300px) {
+	.personal-name {
+		font-size: 2.5rem;
+	}
+
+	.work-preference {
+		font-size: calc(2.5rem / 1.6);
+	}
+
+	.short-intro {
+		font-size: calc((2.5rem / 1.6) / 1.6);
+		width: 100%;
+	}
+
+	.location-text {
+		font-size: calc((2.5rem / 1.6) / 1.6);
+	}
+}
+
+@media (max-width: 1028px) {
+	.personal-name {
+		font-size: calc(2.5rem / 1.6);
+	}
+
+	.work-preference {
+		font-size: calc((2.5rem / 1.6) / 1.6);
+	}
+
+	.short-intro {
+		font-size: calc(((2.5rem / 1.6) / 1.6) / 1.6);
+		width: 100%;
+		letter-spacing: 1px;
+	}
+
+	.location-container {
+		gap: 0.03rem;
+	}
+
+	.location-text {
+		margin-top: 0.1rem;
+		font-size: calc(((2.5rem / 1.6) / 1.6) / 1.6);
+	}
+
+	.location-pin {
+		height: calc(20px / 1.6);
+	}
+}

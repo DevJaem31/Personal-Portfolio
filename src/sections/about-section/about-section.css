@@ -30,3 +30,32 @@
 	transform: translateX(0.4rem);
 	color: var(--text-highlight);
 }
+
+@media (max-width: 1028px) {
+	.about-header-container {
+		margin-bottom: 1.5rem;
+	}
+
+	.about-header {
+		font-size: 1.2rem;
+	}
+
+	.about-paragraph {
+		font-size: calc(1.3rem / 1.6);
+		margin-bottom: 1.8rem;
+	}
+
+	.learn-more-link {
+		font-size: calc(1.2rem / 1.6);
+		color: var(--text-highlight);
+	}
+
+	.learn-more-container {
+		gap: 0.4rem;
+	}
+
+	.arrow-left {
+		height: calc(20px / 1.6);
+		filter: none;
+	}
+}

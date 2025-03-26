@@ -4,3 +4,65 @@
 	height: 100vh;
 	gap: 2rem;
 }
+
+@media (max-width: 1300px) {
+	.main-page-container {
+		width: 100%;
+	}
+
+	.left-side-container {
+		padding: 0;
+	}
+
+	.right-side-container {
+		width: 100%;
+		padding-right: 5rem;
+	}
+}
+
+@media (max-width: 1028px) {
+	.main-page-container {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.navigation-section {
+		display: none;
+	}
+
+	.left-side-container {
+		position: relative;
+		padding: 0 5rem;
+		margin: 0;
+		height: fit-content;
+		display: flex;
+		flex-direction: column;
+		gap: 5rem;
+		left: 0;
+	}
+
+	.right-side-container {
+		width: 100%;
+		padding: 5rem;
+	}
+
+	.about-section {
+		padding-top: 1rem;
+	}
+}
+
+@media (max-width: 480px) {
+	.main-page-container {
+		padding: 0.5rem;
+	}
+
+	.left-side-container {
+		padding: 0;
+		gap: 2rem;
+	}
+
+	.right-side-container {
+		padding: 5rem 0;
+	}
+}
