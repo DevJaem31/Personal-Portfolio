@@ -16,3 +16,68 @@
 	filter: none;
 	opacity: 0.9;
 }
+
+@media (max-width: 1300px) {
+	.skills-header-text {
+		font-size: 1.3rem;
+		margin-bottom: 2.5rem;
+	}
+
+	.primary-skills-header-container,
+	.additional-skills-header {
+		margin-bottom: 1.5rem;
+	}
+
+	.primary-header,
+	.additional-text-header,
+	.tools-header {
+		margin: 0;
+		font-size: calc(1.3rem / 1.6);
+	}
+
+	.skills-icon {
+		height: calc(64px / 1.6);
+	}
+
+	.skills-name {
+		margin: 0;
+		font-size: calc((1.3rem / 1.6) / 1.6);
+	}
+
+	.skills-container-primary .skills-item:nth-child(3) .skills-icon,
+	.skills-container-primary .skills-item:nth-child(5) .skills-icon,
+	.skills-container-primary .skills-item:nth-child(6) .skills-icon,
+	.skills-container-primary .skills-item:nth-child(7) .skills-icon {
+		height: calc(50px / 1.6);
+	}
+
+	.skills-container-primary .skills-item:nth-child(4) {
+		margin-top: 0.2rem;
+	}
+
+	.skills-container-primary .skills-item:nth-child(8) {
+		margin-top: 0.45rem;
+	}
+
+	.skills-container-primary {
+		row-gap: 1rem;
+	}
+
+	.skills-container-additional .skills-item:nth-child(1) .skills-icon,
+	.skills-container-additional .skills-item:nth-child(3) .skills-icon,
+	.skills-container-additional .skills-item:nth-child(4) .skills-icon {
+		height: calc(50px / 1.6);
+	}
+
+	.skills-icon {
+		filter: none;
+	}
+
+	.skills-name {
+		color: white;
+	}
+
+	.skills-container-tools .skills-icon {
+		height: calc(50px / 1.6);
+	}
+}

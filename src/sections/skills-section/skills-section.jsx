@@ -36,11 +36,11 @@ function SkillsSection() {
 
 			<div className='primary-skills-container'>
 				<div className='primary-skills-header-container mb-10'>
-					<h2 className='text-center font-semibold text-xl tracking-widest'>
+					<h2 className='text-center font-semibold text-xl tracking-widest primary-header'>
 						PRIMARY SKILLS AND TECHNOLOGIES
 					</h2>
 				</div>
-				<div className='skills-container grid grid-cols-4 gap-y-10 items-center gap-5 grid-rows-subgrid justify-center grid-rows-auto gap-2 h-fit'>
+				<div className='skills-container-primary grid grid-cols-4 gap-y-10 items-center gap-5 grid-rows-subgrid justify-center grid-rows-auto gap-2 h-fit'>
 					<div className='skills-item flex flex-col items-center gap-2'>
 						<img
 							src={ReactIcon}
@@ -110,12 +110,12 @@ function SkillsSection() {
 
 			<div className='additional-skills-container mt-20 '>
 				<div className='additional-skills-header mb-10'>
-					<h2 className='text-center font-semibold text-xl ml-5 tracking-widest'>
+					<h2 className='text-center font-semibold text-xl ml-5 tracking-widest additional-text-header'>
 						ADDITIONAL SKILLS AND TECHNOLOGIES
 					</h2>
 				</div>
 
-				<div className='skills-container grid grid-cols-4 gap-y-10 items-center gap-5 grid-rows-subgrid justify-center grid-rows-auto gap-2 h-fit'>
+				<div className='skills-container-additional grid grid-cols-4 gap-y-10 items-center gap-5 grid-rows-subgrid justify-center grid-rows-auto gap-2 h-fit'>
 					<div className='skills-item flex flex-col items-center mt-3 gap-2'>
 						<img
 							src={PythonIcon}
@@ -192,12 +192,12 @@ function SkillsSection() {
 
 			<div className='tools-used-container mt-20'>
 				<div className='additional-skills-header mb-10'>
-					<h2 className='text-center font-semibold text-xl ml-5 tracking-widest'>
+					<h2 className='text-center font-semibold text-xl ml-5 tracking-widest tools-header'>
 						TOOLS BEING UTILIZED
 					</h2>
 				</div>
 
-				<div className='skills-container grid grid-cols-3 gap-y-10 items-center gap-5 grid-rows-subgrid justify-center grid-rows-auto gap-2 h-fit'>
+				<div className='skills-container-tools grid grid-cols-3 gap-y-10 items-center gap-5 grid-rows-subgrid justify-center grid-rows-auto gap-2 h-fit'>
 					<div className='skills-item flex flex-col items-center gap-2'>
 						<img
 							src={VSCodeIcon}

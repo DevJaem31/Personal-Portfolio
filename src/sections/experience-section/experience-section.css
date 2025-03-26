@@ -28,3 +28,45 @@
 .text-violet {
 	color: violet;
 }
+
+@media (max-width: 1300px) {
+	.header-text-experience {
+		font-size: 1.2rem;
+	}
+
+	.experience-section-header {
+		margin-bottom: 1.5rem;
+	}
+
+	.experience-list-container {
+		gap: 0.4rem;
+	}
+
+	.experience-item-container {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 0.3rem;
+	}
+
+	.date-text {
+		font-size: calc(12px / 1.6);
+	}
+
+	.experience-title-container {
+		gap: 0.5rem;
+	}
+
+	.title-text-experience {
+		font-size: calc(1.4rem / 1.6);
+	}
+
+	.exp-arrow {
+		margin: 0;
+	}
+
+	.description-text {
+		font-size: calc((1.4rem / 1.6) / 1.6);
+		letter-spacing: 2px;
+	}
+}

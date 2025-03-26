@@ -60,6 +60,7 @@
 	.left-side-container {
 		padding: 0;
 		gap: 2rem;
+		top: 2rem;
 	}
 
 	.right-side-container {
