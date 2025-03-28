@@ -1,0 +1,17 @@
+.submit-button {
+	transition: all 0.15s ease-out;
+}
+
+.submit-button:hover {
+	opacity: 1;
+}
+
+@media (max-width: 1300px) {
+	.contact-header-text {
+		font-size: 1.2rem;
+	}
+
+	.contact-header-container {
+		margin-bottom: 1.5rem;
+	}
+}

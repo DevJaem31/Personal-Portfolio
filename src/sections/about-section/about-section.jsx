@@ -2,7 +2,7 @@ import React from 'react';
 import './about-section.css';
 import arrLeft from '../../assets/icons/arrow-left.png';
 
-function AboutSection() {
+function AboutSection({ onNavigate }) {
 	return (
 		<div className='about-section-container'>
 			<div className='about-header-container mb-15'>
@@ -18,7 +18,12 @@ function AboutSection() {
 			</div>
 			<div className='learn-more-container flex flex-row items-center gap-3 cursor-pointer'>
 				<a
-					href=''
+					href='/more-info'
+					onClick={(e) => {
+						e.preventDefault(); // Prevent page reload
+						window.history.pushState({}, '', '/more-info'); // Update URL
+						onNavigate('more-info'); // Change the page state
+					}}
 					className='learn-more-link tracking-wide'
 				>
 					Learn More

@@ -7,8 +7,10 @@ import SocialMediaSections from '../../sections/social-media/social-media';
 import AboutSection from '../../sections/about-section/about-section';
 import SkillsSection from '../../sections/skills-section/skills-section';
 import ExperienceSection from '../../sections/experience-section/experience-section';
+import ProjectSection from '../../sections/project-section/project-section';
+import ContactMe from '../../sections/contact-me/contact-me';
 
-function MainPage() {
+function MainPage({ onNavigate }) {
 	return (
 		<div className='main-page-container overflow-y-scroll'>
 			<div className='left-side-container pl-50 grid grid-rows-4 m-15 sticky top-15 inset-x-30 h-[85vh]'>
@@ -28,7 +30,7 @@ function MainPage() {
 					className='about-section sections-right pt-20'
 					id='about'
 				>
-					<AboutSection />
+					<AboutSection onNavigate={onNavigate} />
 				</section>
 				<section
 					className='h-fit pt-20 sections-right'
@@ -43,11 +45,21 @@ function MainPage() {
 					<SkillsSection />
 				</section>
 				<section
-					className='h-[100vh] pt-20 sections-right'
+					className='h-fit pt-20 sections-right'
 					id='projects'
 				>
-					Projects
+					<ProjectSection />
 				</section>
+
+				<section
+					className='h-fit pt-20 sections-right'
+					id='footer'
+				>
+					<ContactMe />
+				</section>
+				<footer className='bg-gray-900 pt-20 text-center opacity-35 mb-20'>
+					<p>© 2025 John Mark Flameño. All rights reserved.</p>
+				</footer>
 			</div>
 		</div>
 	);
