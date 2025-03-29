@@ -57,7 +57,7 @@ function MainPage({ onNavigate }) {
 				>
 					<ContactMe />
 				</section>
-				<footer className='bg-gray-900 pt-20 text-center opacity-35 mb-20'>
+				<footer className='bg-gray-900 pt-20 text-center opacity-35 mb-1'>
 					<p>© 2025 John Mark Flameño. All rights reserved.</p>
 				</footer>
 			</div>

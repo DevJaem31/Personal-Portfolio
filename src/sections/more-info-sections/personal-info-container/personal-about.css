@@ -1,0 +1,23 @@
+.profile-pic {
+	-webkit-filter: drop-shadow(5px 5px 5px var(--highlight-color));
+	filter: drop-shadow(2px 2px 2px var(--highlight-color));
+}
+
+@media (max-width: 1300px) {
+	.personal-grid-container {
+		width: 100%;
+		flex-direction: row;
+	}
+
+	.personal-details-container .personal-name {
+		font-size: 1.3rem;
+	}
+
+	.personal-details-container .work-preference {
+		font-size: calc(1.3rem / 1.6);
+	}
+
+	.profile-pic {
+		height: calc(15rem / 1.6);
+	}
+}

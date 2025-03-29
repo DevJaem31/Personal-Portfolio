@@ -14,4 +14,16 @@
 	.contact-header-container {
 		margin-bottom: 1.5rem;
 	}
+
+	input {
+		font-size: smaller;
+	}
+
+	textarea {
+		font-size: smaller;
+	}
+
+	.submit-button {
+		font-size: smaller;
+	}
 }

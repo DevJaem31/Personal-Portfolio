@@ -1,0 +1,48 @@
+.more-content-page {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	height: 100vh;
+	gap: 2rem;
+}
+
+@media (max-width: 1300px) {
+	.more-content-page {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.left-side-more {
+		margin-top: 0;
+		left: 0;
+		padding: 0 1rem;
+		position: relative;
+	}
+
+	.right-side-more {
+		margin-top: 5rem;
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.back-text {
+		font-size: 1.2rem;
+	}
+
+	.back-button-img {
+		height: calc(28px / 1.6);
+	}
+
+	.social-media-container-profile {
+		margin-top: 1rem;
+		width: 100%;
+	}
+
+	.education-section {
+		padding-top: 2rem;
+	}
+
+	.certification-section {
+		padding-top: 2rem;
+	}
+}

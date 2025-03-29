@@ -1,0 +1,104 @@
+.cisco-certificate-item {
+	border-radius: 10px;
+	transition: all 0.15s ease-out;
+	border: 1px solid transparent;
+	padding: 1.5rem 1rem;
+}
+
+.cisco-certificate-item:hover {
+	background: rgba(147, 224, 255, 0.1);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border-radius: 10px;
+	border: 1px solid rgba(153, 189, 255, 0.3);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	outline: none;
+	opacity: 1;
+}
+
+.cisco-certificate-item:hover .certificate-cisco-img {
+	filter: none;
+}
+
+.cisco-certificate-item:hover .cisco-certificate-title {
+	color: var(--text-highlight);
+}
+
+.udemy-certificate-item {
+	border-radius: 10px;
+	transition: all 0.15s ease-out;
+	border: 1px solid transparent;
+	padding: 1.5rem 1rem;
+}
+
+.udemy-certificate-item:hover {
+	background: rgba(147, 224, 255, 0.1);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border-radius: 10px;
+	border: 1px solid rgba(153, 189, 255, 0.3);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	outline: none;
+	opacity: 1;
+}
+
+.udemy-certificate-item:hover .certificate-udemy-img {
+	filter: none;
+}
+
+.udemy-certificate-item:hover .udemy-certificate-title {
+	color: var(--text-highlight);
+}
+
+@media (max-width: 1300px) {
+	.certifications-container {
+		padding: 0 1rem;
+	}
+
+	.certifications-header-container {
+		margin-bottom: 1.5rem;
+	}
+
+	.certification-header {
+		font-size: 1.2rem;
+	}
+
+	.udemy-header,
+	.cisco-header {
+		font-size: calc(1.2rem / 1.3);
+	}
+
+	.udemy-subtext {
+		font-size: calc(1.2rem / 1.6);
+		letter-spacing: 1px;
+		opacity: 0.5;
+	}
+
+	.certificate-cisco-img {
+		height: calc(124px / 1.6);
+	}
+
+	.date-cisco,
+	.udemy-date {
+		font-size: calc((1.2rem / 1.6) / 1.6);
+		letter-spacing: 2px;
+	}
+
+	.cisco-certificate-title,
+	.udemy-certificate-title {
+		font-size: calc(1.2rem / 1.4);
+		line-height: calc(1.2rem / 1.1);
+		letter-spacing: 1px;
+	}
+
+	.cisco-link,
+	.udemy-link {
+		font-size: calc((1.2rem / 1.6) / 1.6);
+		letter-spacing: 2px;
+	}
+
+	.udemy-certificate-container {
+		display: flex;
+		flex-direction: column;
+	}
+}

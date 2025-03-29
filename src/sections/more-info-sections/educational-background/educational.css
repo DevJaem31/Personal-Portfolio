@@ -1,0 +1,53 @@
+.educational-item-container {
+	border-radius: 10px;
+	transition: all 0.15s ease-out;
+	border: 1px solid transparent;
+	padding: 1rem 0.5rem;
+}
+
+.educational-item-container:hover {
+	background: rgba(147, 224, 255, 0.1);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border-radius: 10px;
+	border: 1px solid rgba(153, 189, 255, 0.3);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	outline: none;
+	opacity: 1;
+}
+
+.educational-item-container:hover .title-text-educational {
+	color: var(--text-highlight);
+}
+
+@media (max-width: 1300px) {
+	.educational-container {
+		padding: 0 1rem;
+	}
+
+	.educational-header {
+		font-size: 1.2rem;
+	}
+
+	.educational-header-container {
+		margin-bottom: 1.5rem;
+	}
+
+	.educational-item-container {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		gap: 0.5rem;
+	}
+
+	.title-text-educational {
+		font-size: calc(1.2rem / 1.6);
+	}
+
+	.educational-achievement,
+	.educational-date-text,
+	.educational-description-text {
+		font-size: calc((1.2rem / 1.6) / 1.2);
+		letter-spacing: 1px;
+	}
+}
