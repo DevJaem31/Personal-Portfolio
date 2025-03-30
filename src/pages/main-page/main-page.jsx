@@ -59,8 +59,14 @@ function MainPage({ onNavigate }) {
 				</section>
 				<footer className='bg-gray-900 pt-20 flex flex-col items-center text-center opacity-35 mb-1'>
 					<p>
-						This design is inspired with <a href='https://brittanychiang.com/'>Brittany Chiang</a>'s
-						Portfolio.
+						This design is inspired with{' '}
+						<a
+							className='hover:text-[var(--text-highlight)]'
+							href='https://brittanychiang.com/'
+						>
+							Brittany Chiang
+						</a>
+						's Portfolio.
 					</p>
 					<p>© 2025 John Mark Flameño. All rights reserved.</p>
 				</footer>
