@@ -44,4 +44,12 @@ a {
 	background: #47a198;
 }
 
+.brit-link {
+	transition: all 0.2s ease-in-out;
+}
+
+.brit-link:hover {
+	color: var(--text-highlight);
+}
+
 @import 'tailwindcss';

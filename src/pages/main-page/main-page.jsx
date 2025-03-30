@@ -61,7 +61,7 @@ function MainPage({ onNavigate }) {
 					<p>
 						This design is inspired with{' '}
 						<a
-							className='hover:text-[var(--text-highlight)]'
+							className='brit-link'
 							href='https://brittanychiang.com/'
 						>
 							Brittany Chiang
