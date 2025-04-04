@@ -112,7 +112,7 @@ function ProjectSection() {
 							</div>
 						</div>
 
-						<div className='code-live-container'>
+						<div className='code-live-container flex flex-row gap-5 items-center'>
 							<div className='visit-code-container flex flex-row items-center gap-1'>
 								<a
 									href='https://github.com/DevJaem31/Todo-List-Project'
