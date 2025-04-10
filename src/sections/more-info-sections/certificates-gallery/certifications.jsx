@@ -20,6 +20,7 @@ import {
 	JavaPartOneCert,
 	JavaPartTwoCert,
 	PreparationCert,
+	ReduxCert,
 } from '../../../assets/Udemy Certificates/udemy';
 
 function CertificationSection() {
@@ -364,6 +365,27 @@ function CertificationSection() {
 						<p className='text-xs text-white tracking-wider udemy-date'>March 2025</p>
 						<h1 className='text-lg leading-6 font-bold text-center udemy-certificate-title'>
 							Preparation to Java SE 11 Developer Exam: 1Z0-819 & 1Z0-817
+						</h1>
+						<a
+							target='_blank'
+							rel='noopener noreferrer'
+							href='https://business.udemy.com/'
+							className='text-xs text-white text-center tracking-wider udemy-link'
+						>
+							Accenture • Udemy Business
+						</a>
+					</div>
+				</div>
+
+				<div className='udemy-certificate-item opacity-50 col-start-2 flex flex-col gap-5 items-center'>
+					<img
+						src={ReduxCert}
+						className='aspect-3/2 h-[124px] grayscale certificate-udemy-img'
+					/>
+					<div className='udemy-certificate-details flex flex-col items-center gap-0'>
+						<p className='text-xs text-white tracking-wider udemy-date'>March 2025</p>
+						<h1 className='text-lg leading-6 font-bold text-center udemy-certificate-title'>
+							The Ultimate Redux Course 2025 - [LATEST Redux-toolkit]
 						</h1>
 						<a
 							target='_blank'

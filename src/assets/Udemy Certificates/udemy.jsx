@@ -11,6 +11,7 @@ import DockerCert from './Docker for the Absolute Beginner-Hands On-DevOps_UC-b8
 import JavaPartOneCert from './Java SE 11 Developer 1Z0-819 ОСР Course - Part 1_UC-b1a92d96-7eee-4318-a5b3-35446a893ee8.jpg';
 import JavaPartTwoCert from './Java SE 11 Developer 1Z0-819 ОСР Course - Part 2_UC-3fb7784d-2d15-46af-9a1c-7dd67f85da54.jpg';
 import PreparationCert from './Preparation to Java SE 11 Developer Exam 1Z0-819 & 1Z0-817_UC-fb533b09-29d9-41fc-ac0d-a96c68f71f69.jpg';
+import ReduxCert from './The Ultimate Redux Toolkit Course 2025 - Learn Redux Toolkit_UC-0f1b8a2c-3d4e-4f7b-9a6c-0d1e2f3a5b8c.jpg';
 
 export {
 	VSCodeCert,
@@ -26,4 +27,5 @@ export {
 	JavaPartOneCert,
 	JavaPartTwoCert,
 	PreparationCert,
+	ReduxCert,
 };
