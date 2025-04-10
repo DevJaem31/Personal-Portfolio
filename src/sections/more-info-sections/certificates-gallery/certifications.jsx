@@ -356,7 +356,7 @@ function CertificationSection() {
 					</div>
 				</div>
 
-				<div className='udemy-certificate-item opacity-50 col-start-2 flex flex-col gap-5 items-center'>
+				<div className='udemy-certificate-item opacity-50 flex flex-col gap-5 items-center'>
 					<img
 						src={PreparationCert}
 						className='aspect-3/2 h-[124px] grayscale certificate-udemy-img'
@@ -377,7 +377,7 @@ function CertificationSection() {
 					</div>
 				</div>
 
-				<div className='udemy-certificate-item opacity-50 col-start-2 flex flex-col gap-5 items-center'>
+				<div className='udemy-certificate-item opacity-50 flex flex-col gap-5 items-center'>
 					<img
 						src={ReduxCert}
 						className='aspect-3/2 h-[124px] grayscale certificate-udemy-img'
