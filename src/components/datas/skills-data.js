@@ -21,7 +21,7 @@ import {
 	MavenIcon,
 	PostmanIcon,
 	VSCodeIcon,
-} from '../assets/icons/icons';
+} from '../../assets/icons/icons';
 
 export const primarySkills = [
 	{ name: 'React.js', icon: ReactIcon, className: 'h-[64px] mt-0' },
