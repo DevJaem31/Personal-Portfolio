@@ -37,7 +37,16 @@ function SkillsSection() {
 					</h2>
 				</div>
 
-				<div className='skills-container-additional grid grid-cols-4 gap-y-10 items-center gap-5 grid-rows-subgrid justify-center grid-rows-auto gap-2 h-fit'></div>
+				<div className='skills-container-additional grid grid-cols-4 gap-y-10 items-center gap-5 grid-rows-subgrid justify-center grid-rows-auto gap-2 h-fit'>
+					{additionalSkills.map((skill, index) => (
+						<SkillsCard
+							key={index}
+							icon={skill.icon}
+							name={skill.name}
+							className={skill.className}
+						/>
+					))}
+				</div>
 			</div>
 
 			<div className='tools-used-container mt-20'>
@@ -47,7 +56,16 @@ function SkillsSection() {
 					</h2>
 				</div>
 
-				<div className='skills-container-tools grid grid-cols-3 gap-y-10 items-center gap-5 grid-rows-subgrid justify-center grid-rows-auto gap-2 h-fit'></div>
+				<div className='skills-container-tools grid grid-cols-3 gap-y-10 items-center gap-5 grid-rows-subgrid justify-center grid-rows-auto gap-2 h-fit'>
+					{tools.map((skill, index) => (
+						<SkillsCard
+							key={index}
+							icon={skill.icon}
+							name={skill.name}
+							className={skill.className}
+						/>
+					))}
+				</div>
 			</div>
 		</div>
 	);
