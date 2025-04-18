@@ -32,6 +32,17 @@ function CertificationSection() {
 					<h1 className='udemy-header text-xl font-bold text-center'>ACCENTURE CERTIFICATES</h1>
 					<p className='udemy-subtext text-center text-sm font-bold '>through Udemy Business</p>
 				</div>
+
+				{UdemyDetails.map((udemy, index) => (
+					<CertificationsCard
+						key={index}
+						icon={udemy.icon}
+						date={udemy.date}
+						provider={udemy.provider}
+						title={udemy.title}
+						aspectClass={'aspect-[3/2]'}
+					/>
+				))}
 			</div>
 		</div>
 	);
