@@ -16,7 +16,7 @@ function CertificationSection() {
 				</div>
 
 				{CiscoDetails.map((cisco, index) => (
-					<CertificationSection
+					<CertificationsCard
 						key={index}
 						icon={cisco.icon}
 						date={cisco.date}
