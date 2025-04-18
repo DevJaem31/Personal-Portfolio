@@ -1,13 +1,13 @@
 import React from 'react';
 
-function CertificationsCard({ icon, date, title, provider, aspectClass, flex }) {
+function CertificationsCard({ icon, date, title, provider, aspectClass, flex, align }) {
 	return (
 		<div className={`cisco-certificate-item opacity-50 flex ${flex} gap-5 items-center`}>
 			<img
 				src={icon}
 				className={`${aspectClass} h-[124px] grayscale certificate-cisco-img`}
 			/>
-			<div className='certificate-details flex flex-col gap-0'>
+			<div className={`certificate-details flex flex-col gap-0 ${align}`}>
 				<p className='text-xs text-white tracking-wider date-cisco'>{date}</p>
 				<h1 className='text-lg font-bold leading-6 cisco-certificate-title'>{title}</h1>
 				<a

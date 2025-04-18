@@ -43,6 +43,7 @@ function CertificationSection() {
 						title={udemy.title}
 						aspectClass={'aspect-[3/2]'}
 						flex={'flex-col'}
+						align={'text-center'}
 					/>
 				))}
 			</div>
