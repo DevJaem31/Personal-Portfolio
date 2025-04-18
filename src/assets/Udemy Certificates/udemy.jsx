@@ -12,6 +12,8 @@ import JavaPartOneCert from './Java SE 11 Developer 1Z0-819 ОСР Course - Part
 import JavaPartTwoCert from './Java SE 11 Developer 1Z0-819 ОСР Course - Part 2_UC-3fb7784d-2d15-46af-9a1c-7dd67f85da54.jpg';
 import PreparationCert from './Preparation to Java SE 11 Developer Exam 1Z0-819 & 1Z0-817_UC-fb533b09-29d9-41fc-ac0d-a96c68f71f69.jpg';
 import ReduxCert from './The Ultimate Redux Course 2025 - [LATEST Redux-toolkit]_UC-49beff73-071b-4436-91e7-23e23134610b.jpg';
+import NativeCert from './React JS Masterclass Zero To Job Ready With 10 Projects_UC-ade3ad4b-c1ae-4a52-ac87-03d43b764cee.jpg';
+import ReactCert from './The Complete React Native + Hooks Course_UC-e7933c58-49ed-4d4a-bca9-d50ce2114491.jpg';
 
 export {
 	VSCodeCert,
@@ -28,4 +30,6 @@ export {
 	JavaPartTwoCert,
 	PreparationCert,
 	ReduxCert,
+	NativeCert,
+	ReactCert,
 };
