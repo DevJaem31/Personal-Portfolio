@@ -23,6 +23,7 @@ function CertificationSection() {
 						provider={cisco.provider}
 						title={cisco.title}
 						aspectClass={'aspect-square'}
+						flex={'flex-row'}
 					/>
 				))}
 			</div>
@@ -41,6 +42,7 @@ function CertificationSection() {
 						provider={udemy.provider}
 						title={udemy.title}
 						aspectClass={'aspect-[3/2]'}
+						flex={'flex-col'}
 					/>
 				))}
 			</div>

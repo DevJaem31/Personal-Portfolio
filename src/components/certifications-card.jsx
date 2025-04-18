@@ -1,8 +1,8 @@
 import React from 'react';
 
-function CertificationsCard({ icon, date, title, provider, aspectClass }) {
+function CertificationsCard({ icon, date, title, provider, aspectClass, flex }) {
 	return (
-		<div className='cisco-certificate-item opacity-50 flex flex-row gap-5 items-center'>
+		<div className={`cisco-certificate-item opacity-50 flex ${flex} gap-5 items-center`}>
 			<img
 				src={icon}
 				className={`${aspectClass} h-[124px] grayscale certificate-cisco-img`}
