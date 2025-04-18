@@ -1,29 +1,7 @@
 import React from 'react';
 import './skills-section.css';
-import {
-	ReactIcon,
-	HTMLIcon,
-	CSSIcon,
-	TailwindIcon,
-	JavaScriptIcon,
-	NodeIcon,
-	ExpressIcon,
-	MongoDBIcon,
-	AngularIcon,
-	CplusplusIcon,
-	CiscoIcon,
-	DjangoIcon,
-	JavaIcon,
-	PythonIcon,
-	SalesforceIcon,
-	TypescriptIcon,
-	AndroidIcon,
-	EclipseIcon,
-	GithubIcon,
-	MavenIcon,
-	PostmanIcon,
-	VSCodeIcon,
-} from '../../assets/icons/icons';
+import SkillsCard from '../../components/skills-card';
+import { primarySkills, additionalSkills, tools } from '../../components/datas/skills-data';
 
 function SkillsSection() {
 	return (
@@ -41,70 +19,14 @@ function SkillsSection() {
 					</h2>
 				</div>
 				<div className='skills-container-primary grid grid-cols-4 gap-y-10 items-center gap-5 grid-rows-subgrid justify-center grid-rows-auto gap-2 h-fit'>
-					<div className='skills-item flex flex-col items-center gap-2'>
-						<img
-							src={ReactIcon}
-							alt='React'
-							className='skills-icon ratio-square h-[64px] m-0 grayscale opacity-50'
+					{primarySkills.map((skill, index) => (
+						<SkillsCard
+							key={index}
+							icon={skill.icon}
+							name={skill.name}
+							className={skill.className}
 						/>
-						<p className='skills-name ml-2'>React.js</p>
-					</div>
-					<div className='skills-item flex flex-col items-center gap-2'>
-						<img
-							src={HTMLIcon}
-							alt='HTML'
-							className='skills-icon ratio-square h-[64px] m-0 grayscale opacity-50'
-						/>
-						<p className='skills-name ml-2'>HTML</p>
-					</div>
-					<div className='skills-item flex flex-col items-center gap-2'>
-						<img
-							src={CSSIcon}
-							alt='CSS'
-							className='skills-icon ratio-square h-[50px] mt-3 grayscale opacity-50'
-						/>
-						<p className='skills-name'>CSS</p>
-					</div>
-					<div className='skills-item flex flex-col items-center gap-2'>
-						<img
-							src={TailwindIcon}
-							alt='Tailwind'
-							className='skills-icon ratio-square h-[64px] m-0 grayscale opacity-50'
-						/>
-						<p className='skills-name'>Tailwind CSS</p>
-					</div>
-					<div className='skills-item flex flex-col items-center gap-2'>
-						<img
-							src={JavaScriptIcon}
-							alt='JavaScript'
-							className='skills-icon ratio-square h-[50px] mt-3.5 grayscale opacity-50'
-						/>
-						<p className='skills-name '>Javascript</p>
-					</div>
-					<div className='skills-item flex flex-col items-center gap-2'>
-						<img
-							src={NodeIcon}
-							alt='Node'
-							className='skills-icon ratio-square h-[50px] mt-3.5 grayscale opacity-50'
-						/>
-						<p className='skills-name'>Node.js</p>
-					</div>
-					<div className='skills-item flex flex-col items-center gap-2'>
-						<img
-							src={ExpressIcon}
-							alt='Express'
-							className='skills-icon ratio-square h-[50px] mt-3.5 grayscale opacity-50'
-						/>
-						<p className='skills-name ml-2.5'>Express.js</p>
-					</div>
-					<div className='skills-item flex flex-col items-center gap-2'>
-						<img
-							src={MongoDBIcon}
-							alt='MongoDB'
-							className='skills-icon ratio-square h-[64px] m-0 grayscale opacity-50'
-						/>
-						<p className='skills-name'>MongoDB</p>
-					</div>
+					))}
 				</div>
 			</div>
 
