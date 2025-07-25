@@ -14,7 +14,7 @@ function EducationalSection() {
 				<div className='educational-item-container grid grid-cols-4 gap-y-5 items-center opacity-[0.6] '>
 					<div className='educational-date-container flex justify-center text-center'>
 						<p className='educational-date-text text-center text-xs tracking-widest text-[var(--inactive-text)]'>
-							2021 - PRESENT
+							2021 - 2025
 						</p>
 					</div>
 
