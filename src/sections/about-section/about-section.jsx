@@ -10,8 +10,8 @@ function AboutSection({ onNavigate }) {
 			</div>
 			<div className='about-paragraph-container'>
 				<p className='about-paragraph text-justify mb-15 text-lg tracking-wide '>
-					I am a Graduating IT Student specializing in web and mobile application development. I am
-					looking for a freelance project or work where I can apply my knowledge, gain practical
+					I am a IT professional specializing in web and mobile application development, currently working on Accenture Ph. as a Package App Dev under Associate Software Engineer position. I am 
+					looking for a project where I can apply my knowledge, gain practical
 					experience, and contribute to projects. I am eager to learn, improve my problem-solving
 					skills, and work with a team to develop useful applications.
 				</p>
