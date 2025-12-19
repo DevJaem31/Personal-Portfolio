@@ -7,13 +7,13 @@ function PersonalAboutSection({ onNavigate }) {
 	return (
 		<div className='personal-about-container m-auto'>
 			<div className='personal-grid-container flex w-[70%] m-auto flex-row  gap-5'>
-				<div className='personal-image-container flex col-span-2'>
+				{/* <div className='personal-image-container flex col-span-2'>
 					<img
 						src={profilePic}
 						alt=''
 						className='rounded-xl profile-pic h-[15rem]'
 					/>
-				</div>
+				</div> */}
 
 				<div className='personal-details-container col-span-2 flex flex-col justify-center'>
 					<div className='location-container mb-2 flex flex-row gap-1 items-center'>
